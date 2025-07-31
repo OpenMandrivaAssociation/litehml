@@ -57,6 +57,7 @@ Group:		Development/C++
 Provides:	%{name}-devel = %{version}-%{release}
 Provides:	lib%{name}-devel = %{version}-%{release}
 Requires:	%{libname} = %{version}-%{release}
+Requires:	pkgconfig(gumbo)
 
 %description -n %{develname}
 Development files and headers for %{name}.
