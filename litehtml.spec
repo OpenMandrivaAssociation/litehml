@@ -1,7 +1,6 @@
-
-%define		major 0
-%define		libname		%mklibname %{name} %{major}
+%define		libname		%mklibname %{name}
 %define		develname	%mklibname %{name} -d
+%global		__requires_exclude_from ^%{_libdir}/cmake/litehtml/.*$
 
 Name:		litehtml
 Version:	0.9
